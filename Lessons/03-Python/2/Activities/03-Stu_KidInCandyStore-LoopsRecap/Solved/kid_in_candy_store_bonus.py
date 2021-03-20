@@ -20,6 +20,8 @@ candy_cart = []
 # Print all of the candies to the screen and their index in brackets
 for i in range(len(candy_list)):
     print("[" + str(i) + "] " + candy_list[i])
+    # Equivalent syntax with f-string
+    # print(f'[{i}] {candy_list[i]}')
 
 
 # Set answer to "yes" for while loop
